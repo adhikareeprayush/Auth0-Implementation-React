@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['@auth0/auth0-react']
+      // external: ['@auth0/auth0-react'] // Remove this line
     }
   }
 })
